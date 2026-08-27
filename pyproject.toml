@@ -1,0 +1,9 @@
+[project]
+name = "mac-do"
+version = "0.1.0"
+description = "ローカルLLM(qwen3.6)+macOS AX APIによる自然言語GUI操作。座標=macOS(決定論)/意味選択=LLM"
+requires-python = ">=3.11"
+dependencies = [
+    "pyobjc-framework-Quartz",
+    "pyobjc-framework-ApplicationServices",
+]
