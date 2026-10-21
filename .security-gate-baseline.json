@@ -1,0 +1,13 @@
+{
+ "created": "2026-10-21",
+ "note": "既存の違反の指紋。段 2 で減らす。増やす変更はユーザーの承認が要る(docs/security-gate-design.md §3.6)",
+ "count": 1,
+ "findings": [
+  {
+   "rule": "deps.no-lockfile",
+   "path": "pyproject.toml",
+   "fp": "f88aec499ab23412b08e3b49",
+   "hint": ".: lockfile が無く依存の脆弱性を測れない。uv lock を commit する"
+  }
+ ]
+}
